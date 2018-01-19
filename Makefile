@@ -1,5 +1,5 @@
 all:
-	g++ fm.cpp -o fm
+	g++ fm.cpp -O3 -o fm
 
 clean:
 	rm fm
