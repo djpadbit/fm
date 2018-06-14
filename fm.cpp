@@ -25,7 +25,7 @@ int main(int argc, char *argv[])
 
 	const double carrier_freq = 100e3;
 	const double sample_rate = 32 * carrier_freq;
-	const double modulation_index = 0.9;
+	const double modulation_index = 0.7;
 
 	double modulation_integral = 0;
 	std::ifstream in;
